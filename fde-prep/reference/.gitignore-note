@@ -1,0 +1,13 @@
+This directory holds full, working reference solutions — one .py per challenge, named to
+match the challenge directory (e.g. `01-word-frequency.py`).
+
+They are here for ONE purpose: to check AFTER you have attempted a challenge yourself.
+
+Reading the reference before attempting throws away the practice rep — the whole point is
+that YOU write the body under interview-like constraints (see ../CONSTRAINTS.md). Attempt
+first, run the tests, get stuck or get green, and only THEN diff your code against the
+reference to learn what was cleaner.
+
+(The file is named `.gitignore-note` rather than `.gitignore` on purpose — these solutions
+ARE tracked in git so `verify.py --reference` can confirm every test tier is reachable. The
+name is just a flag to your eyes: don't peek.)
